@@ -1,0 +1,29 @@
+# Dependencias de Node (Paquetes)
+**/node_modules/
+**/package-lock.json
+**/npm-debug.log*
+
+# Variables de entorno (¡Súper importante para la seguridad!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js (Carpeta de compilación)
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+**/pgdata/
+**/redisdata/
+
+# Logs
+*.log
+logs/
